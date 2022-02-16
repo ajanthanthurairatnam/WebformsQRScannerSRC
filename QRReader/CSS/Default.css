@@ -1,0 +1,501 @@
+﻿a
+{
+    font-family:Arial,Verdana;
+    font-size:8pt;
+    cursor:pointer;
+}
+
+div
+{
+    font-family:Arial,Verdana;
+    font-size:8pt;
+    
+}
+/*
+td
+{
+    font-family:Arial,Verdana;
+    font-size:8pt;
+}
+*/
+span
+{
+    font-family:Arial,Verdana;
+    font-size:8pt;
+    font-weight:normal;
+}
+
+
+input[type=text],
+input[type=password]
+{
+    height:18px;
+    line-height:20px;
+    border:solid 1px #666666;
+    padding-left:2px;
+    padding-left:2px;
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
+
+input[type=password]::-ms-reveal { display: none; }
+
+
+input[type=submit]
+{
+    color:#FFFFFF;
+    background-color:#343434;
+    height:28px;
+    border:solid 1px #343434;
+    cursor:pointer;
+}
+
+input[type=submit]:disabled
+{
+    color:#FFFFFF;
+    background-color:#999999;
+    height:28px;
+    border:solid 1px #343434;
+    cursor:default;
+}
+
+input[type=submit].blackButton
+{
+    color:#FFFFFF;
+    background-color:#343434;
+    height:28px;
+    border:solid 1px #343434;
+    cursor:pointer;
+}
+
+input[type=submit].redButton
+{
+    color:#FFFFFF;
+    background-color:#FF0000 !important;
+    height:28px;
+    border:solid 1px #FF0000 !important;
+    cursor:pointer;
+}
+
+input[type=submit].greenButton
+{
+    color:#FFFFFF;
+    background-color:#008000 !important;
+    height:28px;
+    border:solid 1px #008000 !important;
+    cursor:pointer;
+}
+
+input[type=submit].errorDownload
+{
+    color:#000000;
+    background-color:#FFBF00 !important;
+    height:28px;
+    border:solid 1px #FFBF00 !important;
+    cursor:pointer;
+}
+
+input[type=submit].Skinny
+{
+    color:#FFFFFF;
+    background-color:#343434;
+    height:22px !important;
+    border:solid 1px #343434;
+    cursor:pointer;
+}
+
+
+.secInput
+{
+    height:24px !important;
+    font-size:12pt !important;
+    line-height:12pt !important;
+}
+
+.largeCode 
+{
+    font-family:Courier New !important;
+    font-size:20pt !important;
+    font-weight:bold !important;
+    text-align:center  !important;
+    line-height:30px !important;
+    height:30px !important;
+}
+
+
+
+/* Padding & Margin  */
+.PadLeft_0 { padding-left:0px !important;}
+
+.PadLeft_1 { padding-left:1px !important;}
+.PadLeft_2 { padding-left:2px !important;}
+.PadLeft_3 { padding-left:3px !important;}
+.PadLeft_4 { padding-left:4px !important;}
+
+.PadLeft_5 { padding-left:5px !important;}
+.PadLeft_10 { padding-left:10px !important;}
+.PadLeft_15 { padding-left:15px !important;}
+.PadLeft_20 { padding-left:20px !important;}
+.PadLeft_50 { padding-left:20px !important;}  /* vvdolar 01/Nov/2021*/
+.PadLeft_40 { padding-left:30px !important;}  /* vvdolar 01/Nov/2021*/
+
+
+.PadRight_5 { padding-Right:5px !important;}
+.PadRight_10 { padding-Right:10px !important;}
+.PadRight_15 { padding-Right:15px !important;}
+.PadRight_20 { padding-Right:20px !important;}
+
+.PadTop_1 { padding-top:1px !important;}
+.PadTop_2 { padding-top:2px !important;}
+.PadTop_3 { padding-top:3px !important;}
+.PadTop_4 { padding-top:4px !important;}
+
+.MargLeft_2 {margin-left:2px !important;}
+.MargLeft_3 {margin-left:3px !important;}
+.MargLeft_5 {margin-left:5px !important;}
+.MargLeft_10 {margin-left:10px !important;}
+.MargLeft_15 {margin-left:15px !important;}
+
+.MargRight_2 {margin-right:2px !important;}
+.MargRight_3 {margin-right:3px !important;}
+.MargRight_5 {margin-right:5px !important;}
+.MargRight_10 {margin-right:10px !important;}
+.MargRight_15 {margin-right:10px !important;}
+
+.MargTop_2 {margin-top:2px !important;}
+.MargTop_3 {margin-top:3px !important;}
+.MargTop_5 {margin-top:5px !important;}
+.MargTop_10 {margin-top:10px !important;}
+.MargTop_15 {margin-top:15px !important;}
+
+.MargBottom_2 {margin-bottom:2px !important;}
+.MargBottom_3 {margin-bottom:3px !important;}
+.MargBottom_5 {margin-bottom:5px !important;}
+.MargBottom_10 {margin-bottom:10px !important;}
+.MargBottom_15 {margin-bottom:15px !important;}
+
+/* Shifts */
+
+.lShift2 {margin-left:-2px !important;}
+.lShift3 {margin-left:-3px !important;}
+.lShift4 {margin-left:-4px !important;}
+.lShift5 {margin-left:-5px !important;}
+
+/* Gaps */
+.Gap1x { font-size:1px; height:1px; padding:0px;}
+.Gap2x { font-size:1px; height:2px; padding:0px;}
+.Gap3x { font-size:1px; height:3px; padding:0px;}
+.Gap4x { font-size:1px; height:4px; padding:0px;}
+.Gap5x { font-size:1px; height:5px; padding:0px;}
+.Gap6x { font-size:1px; height:6px; padding:0px;}
+.Gap7x { font-size:1px; height:7px; padding:0px;}
+.Gap8x { font-size:1px; height:8px; padding:0px;}
+.Gap9x { font-size:1px; height:9px; padding:0px;}
+.Gap10x { font-size:1px; height:10px; padding:0px;}
+.Gap15x { font-size:1px; height:15px; padding:0px;}
+.Gap20x { font-size:1px; height:20px; padding:0px;}
+
+
+/* Fonts */
+.textM2 { font-family:Arial,Verdana; font-size:6pt;  color:#000000;font-weight:normal;}
+.textM1 { font-family:Arial,Verdana; font-size:7pt;  color:#000000;font-weight:normal;}
+.text   { font-family:Arial,Verdana; font-size:8pt;  color:#000000; font-weight:normal;}
+.textP1 { font-family:Arial,Verdana; font-size:9pt;  color:#000000;font-weight:normal;}
+.textP2 { font-family:Arial,Verdana; font-size:10pt;  color:#000000;font-weight:normal;}
+.textP3 { font-family:Arial,Verdana; font-size:11pt;  color:#000000;font-weight:normal;}
+.textP4 { font-family:Arial,Verdana; font-size:12pt;  color:#000000;font-weight:normal;}
+.textP5 { font-family:Arial,Verdana; font-size:13pt;  color:#000000;font-weight:normal;}
+
+.labelM2    {font-family:Arial,Verdana;	font-size:6pt;font-weight:bold;color:#000000;}
+.labelM1    {font-family:Arial,Verdana;	font-size:7pt;font-weight:bold;color:#000000;}
+.label      {font-family:Arial,Verdana;	font-size:8pt;font-weight:bold;color:#000000;}
+.labelP1    {font-family:Arial,Verdana;	font-size:9pt;font-weight:bold;color:#000000;}
+.labelP2    {font-family:Arial,Verdana;	font-size:10pt;font-weight:bold;color:#000000;}
+.labelP3    {font-family:Arial,Verdana;	font-size:11pt;font-weight:bold;color:#000000;}
+.labelP4    {font-family:Arial,Verdana;	font-size:12pt;font-weight:bold;color:#000000;}
+.labelP5    {font-family:Arial,Verdana;	font-size:13pt;font-weight:bold;color:#000000;}
+
+.cntrllbl       {font-family:Arial,Verdana; padding-left:10px;padding-right:5px;font-size:8pt;font-weight:bold;color:#000000;}
+.cntrllbl_P0    {font-family:Arial,Verdana; padding-left:2px;padding-right:0px;font-size:8pt;font-weight:bold;color:#000000;}
+.cntrllbl_P2    {font-family:Arial,Verdana; padding-left:0px;padding-right:0px;font-size:8pt;font-weight:bold;color:#000000;}
+.cntrlwall      {font-family:Arial,Verdana; padding-left:5px;padding-right:5px;font-size:8pt;font-weight:bold;color:#000000;}
+
+.feelLike_RO {background-color:#EEEEEE !important;}
+
+.h1 {font-family:Arial,Verdana; font-size:18pt;font-weight:bold;}
+.h2 {font-family:Arial,Verdana; font-size:16pt;font-weight:bold;}
+.h3 {font-family:Arial,Verdana; font-size:14pt;font-weight:bold;}
+.h4 {font-family:Arial,Verdana; font-size:12pt;font-weight:bold;}
+.h5 {font-family:Arial,Verdana; font-size:10pt;font-weight:bold;}
+.h6 {font-family:Arial,Verdana; font-size:8pt;font-weight:bold;}
+
+.line2 {line-height:2pt}
+.line3 {line-height:3pt}
+.line4 {line-height:4pt}
+.line5 {line-height:5pt}
+.line6 {line-height:6pt}
+.line7 {line-height:7pt}
+.line8 {line-height:8pt}
+.line9 {line-height:9pt}
+.line10 {line-height:10pt}
+.line11 {line-height:11pt}
+.line12 {line-height:12pt}
+.line13 {line-height:13pt}
+.line14 {line-height:14pt}
+
+.line15 {line-height:15pt}
+.line20 {line-height:20pt}
+.line25 {line-height:25pt}
+.line30 {line-height:30pt}
+.line35 {line-height:35pt}
+
+/* Styles */
+.b {font-weight:bold !important;}
+.i {font-style:italic !important;}
+.u {text-decoration: underline !important;}
+
+.nfw {font-weight:normal !important;}
+
+.p {cursor:pointer !important;}
+.lt { text-decoration: line-throught;}
+
+.alignR { text-align:right; padding-right:3px;}
+.alignL { text-align:left; padding-left:3px;}
+.alignC { text-align:center; padding-left:3px;padding-right:3px;}
+
+.falignR { text-align:right !important;}
+.falignL { text-align:left !important;}
+.falignC { text-align:center !important;}
+
+.falignR0 { text-align:right !important; padding-left:0px !important; padding-right:0px !important;}
+.falignL0 { text-align:left !important;padding-left:0px !important; padding-right:0px !important;}
+.falignC0 { text-align:center !important;padding-left:0px !important; padding-right:0px !important;}
+
+
+
+.valignT { vertical-align:top !important;}
+.valignM { vertical-align:middle !important;}
+.valignB { vertical-align:bottom !important;}
+
+.line_U { border-top-style:solid; border-top-color:#000000; border-top-width:1px;}
+.line_D { border-bottom-style:solid; border-bottom-color:#000000; border-bottom-width:1px;}
+
+.strike {text-decoration:line-through !important;}
+
+
+/*  colors   */
+.color_Orange   { color: #FFB700  !important;}
+.color_Green    { color: #008000  !important; }
+.color_Red      { color: #FF0000  !important;}
+.color_Black    {color: #000000  !important;}
+.color_Blue    {color: #0000FF  !important;}
+.color_Pink {color: #FF00FF  !important;}
+.color_Yellow {color: #FFFF99  !important;}
+.color_Gray    {color: #999999  !important;}
+.color_DarkGray    {color: #7F7F7F  !important;}
+
+
+.eg {font-family:Arial,Verdana; font-size:8pt; font-style:normal; color:#999999; font-weight:normal; cursor:auto; }
+
+.autoover {overflow:auto !important;}
+
+
+/* Three Dots */
+ 
+a.threeDots
+{
+    position:relative; /*this is the key*/
+    z-index:24; 
+    color:#0000FF;
+    background-color:Transparent;
+    text-decoration:none;
+	font-family:Arial,'Times New Roman'; 
+	font-size:9pt;    
+	font-weight:bold;
+}
+
+a.threeDots:hover
+{
+	background-color:#FFFFFF;
+	z-index:25;
+	font-family:Arial,'Times New Roman'; 
+	font-size:9pt;    
+	font-weight:bold;
+}
+
+
+a.threeDots:hover#Gold 
+{
+	background-color:#949408;
+	z-index:25;
+	font-family:Arial,'Times New Roman'; 
+	font-size:9pt;    
+	font-weight:bold;
+}
+
+a.threeDots span
+{
+	display: none;
+	z-index:30;
+}
+
+
+
+a.threeDots:hover span
+{ 
+	/*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:3em; 
+    left:2em;/*2em; */
+    min-width: 20em;
+    width: 20em;
+    border-top:1px solid #666666;
+    border-bottom:4px solid #666666;
+    border-left:1px solid #666666;
+    border-right:3px solid #666666;
+    background-color:#FFFFE4; 
+    color:#000000;
+    text-align: left;
+	font-family:Arial,'Times New Roman'; 
+	font-size:8pt; 
+	font-weight:normal;   
+    padding:3px;
+}
+
+
+a.threeDots:hover input
+{ 
+	/*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; 
+    left:2em; 
+    width:15em;
+    border:1px solid #000099;
+    background-color:#FFFFE4; 
+    color:#7098F0;
+    text-align:left;
+    padding-left:3px;
+}
+
+a.threeDots td {
+    font-family:Arial,'Times New Roman'; 
+}
+
+/* Tables */
+
+table.collapse
+{
+    border-collapse:collapse
+}
+
+/* General */
+.click
+{
+    cursor:pointer;
+}
+
+.browserWarning
+{
+    font-family:Arial,'Times New Roman'; 
+	font-size:14pt;    
+	font-weight:normal;
+	color:#FF0000;
+	text-align:center;
+	background-color:#FFFFC0;
+	border: none 1px #000000;
+	padding-left:50px;
+	padding-right:50px;
+	height:40px;
+}
+
+.browserWarningMessage
+{
+    font-family:Arial,'Times New Roman'; 
+	background-color:#F8F8F8;
+	border: 1px solid #BFBFBF;
+	height:180px;
+	font-size: 11px;
+	opacity:0.5;
+	
+}
+
+.vanish
+{
+    display:none;
+}
+
+/* ClientLock = // vvdolar 2/Jun/2021  */
+.ClientLock
+{
+    border: solid 0px #666666; 
+    padding-top:8px;
+    padding-bottom:14px;   /*18px;*/
+    background-color:#F7F7F7;
+    
+    width:93%;
+    padding-left:4%;
+    padding-right:4%;
+    text-align:center; 
+    color: #ff0000; 
+    font-size:13pt;
+    /*font-family: Calibri,Arial;*/
+    font-weight:bold;
+}
+.ClientLockTD
+{
+    vertical-align: middle;
+    
+}
+.DefaultCostMsg
+{
+    font-weight:normal;
+    padding-left: 4px;
+    font-size:10px;
+    vertical-align:top; 
+    padding-top:-1px;
+    
+}
+
+.StmtIconSpan /* new code vvdolar 21/Jun/2021 */
+{
+    margin-right: 0px; 
+}
+.EMAILwordWrap
+{
+    word-wrap: break-word;
+}
+
+.TDStmtPRNIcon
+{
+  width: 20px;
+}
+.SmallFontBtn
+{
+    font-size:7pt !important;
+}
+.DebtBtnAllSelected
+{
+    background-color: #EEEEEE;
+    color: #000000;
+    font-family: Arial,Verdana,Geneva,Helvetica,sans-serif;
+    font-weight: bold;
+    height: 18px;
+    cursor: pointer;
+    
+    border: 0.0mm solid #CCCCC !important;
+
+}
+.PrevPageWidth
+{
+    width:16px;
+} 
+.UpDwnPageWidth 
+{
+    width:16px
+} 
+.NextPageWidth
+{
+    width:16px;
+}
